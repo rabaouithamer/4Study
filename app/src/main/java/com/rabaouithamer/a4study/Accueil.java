@@ -28,7 +28,7 @@ public class Accueil extends AppCompatActivity
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
 
-
+    //Les services fournis par 4Study
     CharSequence Titles[]={"All","Agenda", "Alarm", "Application", "A faire"};
     int Numboftabs =5;
 
