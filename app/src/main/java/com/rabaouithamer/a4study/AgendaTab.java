@@ -1,8 +1,5 @@
 package com.rabaouithamer.a4study;
 
-/**
- * Created by Rabaoui Thamer on 07/10/2016.
- */
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
@@ -27,7 +24,7 @@ import static android.R.attr.statusBarColor;
 import com.gordonwong.materialsheetfab.MaterialSheetFab;
 import com.gordonwong.materialsheetfab.MaterialSheetFabEventListener;
 
-
+//classe pour la fonction agenda
 public class AgendaTab extends Fragment{
 
     private MaterialSheetFab materialSheetFab;
