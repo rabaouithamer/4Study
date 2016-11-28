@@ -25,6 +25,10 @@
             android:label="@string/title_activity_accueil"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RefreshStyle"></activity>
+
+        <receiver android:name=".AlarmReceiver"/>
+        <service android:name=".RingtonePlayingService"
+            android:enabled="true"/>
     </application>
 
 </manifest>
