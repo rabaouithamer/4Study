@@ -45,7 +45,6 @@ public class AlarmTab extends Fragment {
 
         //intent to AlarmReceiver
        final Intent intent = new Intent(getActivity(),AlarmReceiver.class);
-
         btnOn.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
@@ -88,10 +87,10 @@ public class AlarmTab extends Fragment {
                 alarmManager.cancel(pendingIntent);
 
                 //tel the alarm that you click alarm off
-               // intent.putExtra("extra","alarm off");
+               intent.putExtra("extra","alarm off");
 
                 //stop the ringtone
-               // sendBroadcast(intent);
+               getActivity().sendBroadcast(intent);
             }
         });
 
