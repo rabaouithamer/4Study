@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "1056509364901",
+    "firebase_url": "https://myfirebasedemoapp-9dcbb.firebaseio.com",
+    "project_id": "myfirebasedemoapp-9dcbb",
+    "storage_bucket": "myfirebasedemoapp-9dcbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056509364901:android:022ad794b3b88853",
+        "android_client_info": {
+          "package_name": "tn.rnu.enis.firebaseauthdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056509364901-1cc1jq98md8q15vajc2svirp171m31br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHIoeYTYwpY_uGIBktAS1nrE6m8_rUAtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056509364901-1cc1jq98md8q15vajc2svirp171m31br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056509364901:android:7f0057b7c2ca3639",
+        "android_client_info": {
+          "package_name": "com.rabaouithamer.a4study"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056509364901-1cc1jq98md8q15vajc2svirp171m31br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHIoeYTYwpY_uGIBktAS1nrE6m8_rUAtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056509364901-1cc1jq98md8q15vajc2svirp171m31br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

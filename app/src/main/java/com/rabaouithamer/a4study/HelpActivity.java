@@ -24,7 +24,7 @@ public class HelpActivity extends AppIntro {
     @Override
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
-        Intent intent = new Intent(this, Accueil.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
 
@@ -34,7 +34,7 @@ public class HelpActivity extends AppIntro {
     @Override
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
-        Intent intent = new Intent(this, Accueil.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
 

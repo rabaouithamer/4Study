@@ -32,7 +32,9 @@
             android:name=".RingtonePlayingService"
             android:enabled="true" />
 
-        <activity android:name=".CloseAlarm"></activity>
+        <activity android:name=".CloseAlarm" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
