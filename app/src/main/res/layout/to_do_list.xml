@@ -4,13 +4,24 @@
     android:layout_height="match_parent">
 
 
-    <TextView
+    <ListView
+        android:id="@+id/listeToDo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Contenu du to do list"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:textAlignment="center"
+        android:foregroundGravity="center">
+
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:src="@android:drawable/ic_input_add"
+
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="300dp"
+        />
 
 </RelativeLayout>

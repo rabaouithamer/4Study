@@ -19,12 +19,15 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_below="@+id/toolbar"
-        android:id="@+id/swipe">
+        android:id="@+id/swipe"
+       >
 
       <ListView
           android:layout_width="match_parent"
           android:layout_height="match_parent"
-          android:id="@+id/liste">
+          android:id="@+id/liste"
+
+          >
 
       </ListView>
 
